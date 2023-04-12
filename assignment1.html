@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Home Rentals</title>
+    <script src="https://kit.fontawesome.com/07d3bee10a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="header">
@@ -31,17 +32,20 @@
                 <figure class="header__map">
                     <img src="./resources/map.png" alt="" height="250px" width="250px">
                 </figure>
-                <select class="header__dropdown">
+            <div class="header__dropdown">    
+                <select class="btn-large">
                     <option value="">All Types</option>
                     <option value="">Bungalow</option>
                     <option value="">Duplex</option>m
                     <option value="">Self Con</option>
                 </select>
-                <select id="select2">
+                <select class="btn-large">
                   <option value="">Neighbourhood</option>
                   <option value="">Abuja</option>
                   <option value="">Nigeria</option>
                 </select>
+                <button class="mapbutt"><a href="">search</a></button>
+            </div>    
             </div>
         </section>
     </header>
@@ -203,26 +207,26 @@
             <article class="form__top">
                 <div class="form__images">
                     <figure>
-                        <img src="resources/square1.jpg" alt="form pictures" width="125px" height="167px">
+                        <img src="./resources/bedspace.png" alt="form pictures" width="125px" height="167px">
                         <figcaption>flexible leases</figcaption>
                     </figure>
                     <figure>
-                        <img src="resources/square2.jpg" alt="form pictures" width="135px" height="135px">
+                        <img src="resources/happiness.png" alt="form pictures" width="135px" height="135px">
                         <figcaption>7-day happiness gauranteed</figcaption>
                     </figure>
                     <figure>
-                        <img src="resources/square3.jpg" alt="form picture" width="106px" height="142.5px">
+                        <img src="resources/cleaning.png" alt="form picture" width="106px" height="142.5px">
                         <figcaption>monthly house cleaning</figcaption>
                     </figure>
                     <figure>
-                        <img src="resources/square4.jpg" alt="form picture" width="169px" height="178px">
+                        <img src="resources/roommates.png" alt="form picture" width="169px" height="178px">
                         <figcaption>choose your own roommate</figcaption>
                     </figure>
                 </div>
                 <div class="form__info">
                     <h2 class="title--xl">flexibility and options to suit your lifestyle</h2>
                     <p>You need it? We got it. We make finding your next home easy, comfortable, and simple. From our happiness guarantee to our selective roommate finder option. We provide you the flexibility that you most desire.</p>
-                    <button class="btn btn-normal">search button</button>
+                    <button class="btn btn-normal">search rooms </button>
                 </div>
             </article>
             <article class="form__main l-align-center">
@@ -245,23 +249,23 @@
                         <div>  
                         <label for="city">City<span class="orange">&#10033;</span></label>
                         <select name="city" id="city">
-                            <option value="" disabled selected hidden>Select city</option>
-                            <option value="manhattan">Manhattan</option>
-                            <option value="asokoro">Asokoro</option>
-                            <option value="rayfield">Rayfield</option>
-                            <option value="mainland">Mainland</option>
-                            <option value="tokyo">Tokyo</option>
+                            <option value="" disabled selected hidden>Select location</option>
+                            <option value="zaria">Zaria</option>
+                            <option value="kampala">kampala</option>
+                            <option value="Capetown">Capetown</option>
+                            <option value="Rome">Rome</option>
+                            <option value="accra">Accra</option>
                         </select>
                         </div>
                         <div>
                             <label for="state">State<span class="orange">&#10033;</span></label>
                             <select name="state" id="state">
                                 <option value="" disabled selected hidden>Select state</option>
-                                <option value="Toronto">Toronto</option>
-                                <option value="Abuja">Abuja</option>
-                                <option value="San-Francisco">San-Francisco</option>
-                                <option value="York">York</option>
-                                <option value="Kagos">Lagos</option>
+                                <option value="kaduna">Kaduna</option>
+                                <option value="abuja">Abuja</option>
+                                <option value="port-harcourt">Port-harcourt</option>
+                                <option value="jos">Jos</option>
+                                <option value="lagos">Lagos</option>
                             </select>
                         </div>
                         <div>
@@ -334,15 +338,10 @@
                     <p><span class="orange">harry wilson</span></p>
                     <p>property owner</p>
                 </figure>
-                <div class="circle--container">
-                    <div class="circle orange--accent"></div>
-                    <div class="circle"></div>
-                    <div class="circle"></div>
-                </div>
             </article>
             <article class="about__picture">
                 <figure>
-                    <img src="resources/about_foreground.jpg" alt="" width="212px" height="196px">
+                    <img src="resources/hustler.png" alt="" width="212px" height="196px">
                 </figure>
             </article>
         </section>
@@ -362,9 +361,19 @@
                 </div>
                 <div>
                     <span>social media</span>
-                    <i><img src="resources/Facebook.svg" alt="" class="icon"></i>
-                    <i><img src="resources/Twitter.svg" alt=""class="icon"></i>
-                    <i><img src="resources/Pinterest.png" alt="" class="icon"></i>
+                    <i class="icon" style="color: 
+                    #F4511E;"><i class="fa-brands fa-facebook"></i></i>
+                    <i class="icon" style="color: 
+                    #F4511E;"><i class="fa-brands fa-twitter"></i></i>
+                    <i class="icon" style="color: 
+                    #F4511E;"><i class="fa-brands fa-linkedin"></i></i>
+                    <i class="icon" style="color: 
+                    #F4511E;"><i class="fa-brands fa-youtube"></i></i>
+                    <i class="icon" style="color: 
+                    #F4511E;"><i class="fa-brands fa-instagram"></i></i>
+                    <i class="icon" style="color: 
+                    #F4511E;"><i class="fa-brands fa-google-plus-g"></i></i>
+                
                 </div>
             </article>
         </section>
@@ -379,6 +388,21 @@
             <div class="footer__copyright">Copyright © 2023 Minimumlivingcost. All rights reserved</div>
         </section>
     </footer>
+    <script>
+         let cardContainer = document.getElementById("card-container");
+    let photos = document.getElementById("photos");
+    let submit = document.getElementById("submit");
+
+    submit.onchange = function(){
+        cardContainer.src = URL.createObjectURL(submit.file[0]);
+    }
+    submit.addEventListener("change", () => {
+        imagedisplay.innerHTML = "";
+        Array.from(submit.files).forEach((file) => {
+            fileHandler(file, file.name, file.type);
+        });
+    });
+    </script>
 </body>
 <script src="script/index.js"></script>
 </html>

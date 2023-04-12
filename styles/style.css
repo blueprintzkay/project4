@@ -103,6 +103,16 @@ body {
   height: 2rem;
   background-color: var(--btn-large-bg-color);
 }
+.mapbutt{
+  height: 2rem;
+  width: 4rem;
+  box-sizing: border-box;
+  box-shadow: #333;
+  color: #333;
+}
+button a{
+  color: #333;
+}
 
 .btn-small {
   height: 2rem;
